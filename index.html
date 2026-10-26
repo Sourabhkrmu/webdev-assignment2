@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+
+        <img src="./img.jpeg" alt="Profile Picture" class="profile-img">
+
+        <p>
+            Hello everyone! My name is Sourabh Kaswan. I am a first year Btech CSE core student. i am learning web development
+            and this is my portfolio website.
+        </p>
+    </section><hr>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+
+        <table>
+            <tr>
+                <th>Skill</th>
+                <th>Level</th>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>intermediate</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>learning</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>beginner</td>
+            </tr>
+        </table>
+    </section><hr>
+
+
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>A simple webpage using HTML.</p>
+        </div>
+
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>a simple webpage using HTML and external CSS.</p>
+        </div>
+    </section><hr>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+            <table class="contact-table">
+                <tr>
+                    <td><label for="name">Name</label></td>
+                    <td>
+                        <input type="text" id="name"
+                               placeholder="Enter your name" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td>
+                        <input type="email" id="email"
+                               placeholder="Enter your email" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="message">Message</label></td>
+                    <td>
+                        <textarea id="message"
+                                  placeholder="Write your message"
+                                  
+
+                                  required></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <button type="submit">Send</button>
+                    </td>
+                </tr>
+            </table>
+       
+        <a href="#" class="backtotop">↑ Back To Top</a>
+    </section>
+
+</body>
+</html>
